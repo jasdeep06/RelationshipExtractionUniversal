@@ -1,5 +1,6 @@
 import pickle
 from evaluation_matrics import get_precision_and_recall_and_f1,get_f1_macro
+import matplotlib.pyplot as plt
 
 
 def retrieve_contents(filename):
@@ -46,3 +47,11 @@ def test_f1_score(model,sess):
     precision, recall, f1 = get_precision_and_recall_and_f1(lb, pr)
 
     return get_f1_macro(f1,len(set(lb)))
+
+def log_f1_score(path,log_text):
+    f=open(path,'a')
+    f.write(log_text+"\n")
+
+def plot_test_score(test_scores,iterations):
+    plt.plot(test_scores,iterations)
+    
