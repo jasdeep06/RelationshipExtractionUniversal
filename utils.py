@@ -1,5 +1,7 @@
 import pickle
 from evaluation_matrics import get_precision_and_recall_and_f1,get_f1_macro
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 

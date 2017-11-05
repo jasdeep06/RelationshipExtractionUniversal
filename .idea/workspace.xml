@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="627ee261-1502-446a-b8be-e0019e769f7a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 108, 'embedding_size': 84, 'learning_rate': 1.0029959940719208e-05, 'batch_size': 96}/checkpoint" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 108, 'embedding_size': 84, 'learning_rate': 1.0029959940719208e-05, 'batch_size': 96}/model.ckpt.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 108, 'embedding_size': 84, 'learning_rate': 1.0029959940719208e-05, 'batch_size': 96}/model.ckpt.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 108, 'embedding_size': 84, 'learning_rate': 1.0029959940719208e-05, 'batch_size': 96}/model.ckpt.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 125, 'embedding_size': 65, 'learning_rate': 0.0013613534635524664, 'batch_size': 60}/checkpoint" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 125, 'embedding_size': 65, 'learning_rate': 0.0013613534635524664, 'batch_size': 60}/model.ckpt.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 125, 'embedding_size': 65, 'learning_rate': 0.0013613534635524664, 'batch_size': 60}/model.ckpt.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 125, 'embedding_size': 65, 'learning_rate': 0.0013613534635524664, 'batch_size': 60}/model.ckpt.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 148, 'embedding_size': 42, 'learning_rate': 4.5471222255761801e-05, 'batch_size': 16}/checkpoint" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 148, 'embedding_size': 42, 'learning_rate': 4.5471222255761801e-05, 'batch_size': 16}/model.ckpt.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 148, 'embedding_size': 42, 'learning_rate': 4.5471222255761801e-05, 'batch_size': 16}/model.ckpt.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 148, 'embedding_size': 42, 'learning_rate': 4.5471222255761801e-05, 'batch_size': 16}/model.ckpt.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 36, 'embedding_size': 66, 'learning_rate': 0.00018342264129503179, 'batch_size': 95}/checkpoint" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 36, 'embedding_size': 66, 'learning_rate': 0.00018342264129503179, 'batch_size': 95}/model.ckpt.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 36, 'embedding_size': 66, 'learning_rate': 0.00018342264129503179, 'batch_size': 95}/model.ckpt.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 36, 'embedding_size': 66, 'learning_rate': 0.00018342264129503179, 'batch_size': 95}/model.ckpt.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 37, 'embedding_size': 86, 'learning_rate': 0.031876963883139715, 'batch_size': 53}/checkpoint" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 37, 'embedding_size': 86, 'learning_rate': 0.031876963883139715, 'batch_size': 53}/model.ckpt.data-00000-of-00001" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 37, 'embedding_size': 86, 'learning_rate': 0.031876963883139715, 'batch_size': 53}/model.ckpt.index" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/saved_model/{'num_units': 37, 'embedding_size': 86, 'learning_rate': 0.031876963883139715, 'batch_size': 53}/model.ckpt.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tensorboard_analysis/{'num_units': 38, 'embedding_size': 71, 'learning_rate': 7.9433317286214754e-05, 'batch_size': 44}/events.out.tfevents.1509628590.CONSTALYTICSs-MacBook-Pro-3.local" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train.py" afterPath="$PROJECT_DIR$/train.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tuner.py" afterPath="$PROJECT_DIR$/tuner.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils.py" afterPath="$PROJECT_DIR$/utils.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,10 +18,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="attention_model.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="attention_model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/attention_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="-395">
               <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
               <folding />
             </state>
@@ -76,8 +53,8 @@
       <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1440">
-              <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -88,8 +65,8 @@
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -97,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tuner.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tuner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tuner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="585">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -136,9 +113,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/train.py" />
-        <option value="$PROJECT_DIR$/utils.py" />
         <option value="$PROJECT_DIR$/tuner.py" />
+        <option value="$PROJECT_DIR$/utils.py" />
+        <option value="$PROJECT_DIR$/train.py" />
       </list>
     </option>
   </component>
@@ -399,8 +376,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="23" width="1188" height="679" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2539267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2539267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -436,19 +414,43 @@
     <entry file="file://$PROJECT_DIR$/tensorboard_analysis/{'num_units': 37, 'embedding_size': 86, 'learning_rate': 0.031876963883139715, 'batch_size': 53}/logfile.txt" />
     <entry file="file://$PROJECT_DIR$/tensorboard_analysis/{'num_units': 104, 'embedding_size': 92, 'learning_rate': 0.027406566903740191, 'batch_size': 96}/test_plot.png" />
     <entry file="file://$PROJECT_DIR$/tensorboard_analysis/{'num_units': 104, 'embedding_size': 92, 'learning_rate': 0.027406566903740191, 'batch_size': 96}/logfile.txt" />
-    <entry file="file://$PROJECT_DIR$/attention_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hyperparameters.py">
+    <entry file="file://$PROJECT_DIR$/class_model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tuner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -462,43 +464,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class_model.py">
+    <entry file="file://$PROJECT_DIR$/hyperparameters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tuner.py">
+    <entry file="file://$PROJECT_DIR$/attention_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-395">
+          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>

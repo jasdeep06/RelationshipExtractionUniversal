@@ -3,6 +3,8 @@ from utils import next_batch,test_f1_score,log_f1_score,plot_test_score
 from evaluation_matrics import get_precision_and_recall_and_f1,get_f1_macro
 #import your Model
 from class_model import Model
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 def train(resume_training=False,total_epochs=5,test_after_n_iter=0,disp_loss_after_n_iter=0,merge_summary_after_n_iter=0,hyperparameters=None):
