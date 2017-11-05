@@ -53,5 +53,6 @@ def log_f1_score(path,log_text):
     f.write(log_text+"\n")
 
 def plot_test_score(test_scores,iterations):
-    plt.plot(test_scores,iterations)
-    
+    plt.plot(iterations,test_scores)
+
+

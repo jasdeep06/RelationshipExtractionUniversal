@@ -13,7 +13,7 @@ def tune(n_times=25):
         hyperparameter_setting.embedding_size=sample_randomly(hyperparameter_setting.embedding_size,use_log_scale=False,sample_int=True,from_list=False)
         hyperparameter_setting.learning_rate=sample_randomly(hyperparameter_setting.learning_rate,use_log_scale=True,sample_int=False,from_list=False)
         print("The configuration is ",hyperparameter_setting.__dict__)
-        train(resume_training=False,total_epochs=1,test_after_n_iter=10,disp_loss_after_n_iter=10,merge_summary_after_n_iter=10,hyperparameters=hyperparameter_setting)
+        train(resume_training=False,total_epochs=8,test_after_n_iter=10,disp_loss_after_n_iter=10,merge_summary_after_n_iter=10,hyperparameters=hyperparameter_setting)
 
 def sample_randomly(range,use_log_scale=False,sample_int=False,from_list=False):
     if sample_int==True and use_log_scale==False:

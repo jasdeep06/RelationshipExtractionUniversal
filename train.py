@@ -1,8 +1,9 @@
 import tensorflow as tf
-from utils import next_batch,test_f1_score,log_f1_score
+from utils import next_batch,test_f1_score,log_f1_score,plot_test_score
 from evaluation_matrics import get_precision_and_recall_and_f1,get_f1_macro
 #import your Model
 from class_model import Model
+import matplotlib.pyplot as plt
 
 def train(resume_training=False,total_epochs=5,test_after_n_iter=0,disp_loss_after_n_iter=0,merge_summary_after_n_iter=0,hyperparameters=None):
     tf.reset_default_graph()
@@ -67,6 +68,7 @@ def train(resume_training=False,total_epochs=5,test_after_n_iter=0,disp_loss_aft
                 f1_score_test=test_f1_score(model,sess)
                 test_score.append(f1_score_test)
                 iterations.append(iter)
+                plot_test_score(test_score,iterations)
 
 
             if iter % merge_summary_after_n_iter:
@@ -84,12 +86,14 @@ def train(resume_training=False,total_epochs=5,test_after_n_iter=0,disp_loss_aft
         final_test_score=test_f1_score(model,sess)
         log_text="The final f1 score for configuration {} is {} after {} epochs and {} iterations".format(str(hyperparameters.__dict__),final_test_score,total_epochs,iter)
         logging_path="tensorboard_analysis/"+str(hyperparameters.__dict__)+"/logfile.txt"
+        plot_path="tensorboard_analysis/"+str(hyperparameters.__dict__)+"/test_plot.png"
         log_f1_score(logging_path,log_text)
 
 
         save_path="saved_model/"+str(hyperparameters.__dict__)+"/model.ckpt"
         saver.save(sess,save_path)
         tf.Session.close(sess)
+        plt.savefig(plot_path)
 
 
 
